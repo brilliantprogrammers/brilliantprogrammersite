@@ -154,3 +154,18 @@
 #learn:hover span{
     animation-play-state: paused;
 }
+
+
+
+
+
+#recent{
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+
+}
+#posts{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

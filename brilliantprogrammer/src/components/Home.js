@@ -1,8 +1,9 @@
  
 import React, { Component } from 'react'
-import { Container,Row,Col } from 'react-bootstrap'
+import { Container,Row,Col,Card,Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Work from './images/work.svg'
+import Back from './images/backend.jpg'
 import './css/Home.css'
 class Home extends Component {
     render() { 
@@ -35,15 +36,123 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <h1>hii</h1>
-                    <h1>hii</h1>
-                    <h1>hii</h1>
-                    <h1>hii</h1>
-                    <h1>hii</h1>
-                    <h1>hii</h1>
-                    <h1>hii</h1>
-                    <h1>hii</h1>
-                    <h1>hii</h1>
+                    <h1 id="recent">Recent Posts</h1>
+                </Row>
+                <Row  xs="1" sm="2" md="4">
+                <Col id="posts">
+                        <Card >
+                            <Card.Img variant="top" src={Back} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                                </Card.Text>
+                                <Button id="read_btn" variant="danger">Read More</Button>
+                            </Card.Body>
+                        </Card>
+                        
+                    </Col>
+                    <Col id="posts">
+                        <Card >
+                            <Card.Img variant="top" src={Back} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                                </Card.Text>
+                                <Button id="read_btn" variant="danger">Read More</Button>
+                            </Card.Body>
+                        </Card>
+                        
+                    </Col>
+                    <Col id="posts">
+                        <Card >
+                            <Card.Img variant="top" src={Back} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                                </Card.Text>
+                                <Button id="read_btn" variant="danger">Read More</Button>
+                            </Card.Body>
+                        </Card>
+                        
+                    </Col>
+                    <Col id="posts">
+                        <Card >
+                            <Card.Img variant="top" src={Back} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                                </Card.Text>
+                                <Button id="read_btn" variant="danger">Read More</Button>
+                            </Card.Body>
+                        </Card>
+                        
+                    </Col>
+                    <Col id="posts">
+                        <Card >
+                            <Card.Img variant="top" src={Back} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                                </Card.Text>
+                                <Button id="read_btn" variant="danger">Read More</Button>
+                            </Card.Body>
+                        </Card>
+                        
+                    </Col>
+                    <Col id="posts">
+                        <Card >
+                            <Card.Img variant="top" src={Back} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                                </Card.Text>
+                                <Button id="read_btn" variant="danger">Read More</Button>
+                            </Card.Body>
+                        </Card>
+                        
+                    </Col>
+                    <Col id="posts">
+                        <Card >
+                            <Card.Img variant="top" src={Back} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                                </Card.Text>
+                                <Button id="read_btn" variant="danger">Read More</Button>
+                            </Card.Body>
+                        </Card>
+                        
+                    </Col>
+                    <Col id="posts">
+                        <Card >
+                            <Card.Img variant="top" src={Back} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                                <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                                </Card.Text>
+                                <Button id="read_btn" variant="danger">Read More</Button>
+                            </Card.Body>
+                        </Card>
+                        
+                    </Col>
+                    
+                    
                 </Row>
             </Container>
          );
