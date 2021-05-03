@@ -169,3 +169,14 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+#img__{
+    overflow: hidden;
+}
+#img_posts{
+    display: block;
+    transition: transform .4s; 
+}
+#img_posts:hover{
+    transform: scale(1.3);
+    transform-origin: 50% 50%;  
+}
