@@ -8,7 +8,7 @@ class Navb extends Component {
 
     render() { 
         return (
-            <Navbar sticky="bottom" className="nav_bp" bg="light" expand="lg">
+            <Navbar sticky="top" className="nav_bp" bg="light" expand="lg">
             <Navbar.Brand href="#home"><img height="40px" src={ Logo } alt="Brilliantprogrammer"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
