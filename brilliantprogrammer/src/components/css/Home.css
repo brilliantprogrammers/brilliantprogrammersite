@@ -1,0 +1,12 @@
+.main_heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+#heading-1{
+    font-family: var(--bs-font-sans-serif);
+    
+}
+#change-text{
+    font-size: large;
+    box-sizing: border-box;
+}

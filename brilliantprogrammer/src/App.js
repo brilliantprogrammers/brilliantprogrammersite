@@ -5,18 +5,20 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
-      <Switch>
-          <Route path="/home">
-            <Nav/>
+      <Router basename={process.env.PUBLIC_URL}> 
+        <Nav/>
+        <Switch>  
+          <Route path="/">
+            <Home/>    
           </Route>
-          <Route path="/about">
+          <Route path="/python">
             
           </Route>
-          </Switch>
+        </Switch>
       </Router>
     </div>
   );
