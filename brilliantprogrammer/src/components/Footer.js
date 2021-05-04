@@ -43,7 +43,7 @@ class Foot extends Component {
                 </Col>
                 </Row>
                 <Row>
-                    <h1 id="copyright">&copy;brilliantprogrammer All rights reserved</h1>
+                    <h1 id="copyright">&copy;2021 brilliantprogrammer<br/> All rights reserved</h1>
                 </Row>
             </Container>
          );
