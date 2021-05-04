@@ -30,6 +30,9 @@
     color: rgb(144, 238, 214);
     text-decoration: none;
 }
+#social_col{
+    text-align: center;
+}
 #copyright{
     font-size: small;
     width: 100%;

@@ -36,7 +36,7 @@ class Foot extends Component {
                         </address>
                     </div>
                 </Col>
-                <Col sm="4">
+                <Col id="social_col" sm="4">
                     <a id="social_" class="btn btn-social-icon btn-facebook" href="https://twitter.com/imaprogramr"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
                     <a id="social_" class="btn btn-social-icon btn-linkedin" href="https://www.instagram.com/ttyagi_boy84/"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>                            <a id="social_" class="btn btn-social-icon btn-youtube" href="https://www.linkedin.com/in/deepanshu-tyagi-355855198/"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
                     <a id="social_" class="btn btn-social-icon" href="mailto:"><FontAwesomeIcon icon={faEnvelope} size="2x" /></a>
