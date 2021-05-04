@@ -17,11 +17,11 @@ class Foot extends Component {
                     <div class="col-5 offset-1 col-sm-2">
                         <h5>Links</h5>
                         <ul class="list-unstyled">
-                            <li id="navlist_"><Link className="navlink" to="/"><FontAwesomeIcon icon={faLink} />Home</Link></li>
-                            <li id="navlist_"><Link className="navlink" to="/project"><FontAwesomeIcon icon={faLink} />Python</Link></li>
+                            <li id="navlist_"><a className="navlink" href="/"><FontAwesomeIcon icon={faLink} />Home</a></li>
+                            <li id="navlist_"><a className="navlink" href="/project"><FontAwesomeIcon icon={faLink} />Python</a></li>
                             <li id="navlist_"><a className="navlink" href="/"><FontAwesomeIcon icon={faLink} />Django</a></li>
-                            <li id="navlist_"><Link className="navlink" to="/Contact"><FontAwesomeIcon icon={faLink} />Contact Us</Link></li>
-                            <li id="navlist_"><Link className="navlink" to="/About"><FontAwesomeIcon icon={faLink} />About Us</Link></li>
+                            <li id="navlist_"><a className="navlink" href="/Contact"><FontAwesomeIcon icon={faLink} />Contact Us</a></li>
+                            <li id="navlist_"><a className="navlink" href="/About"><FontAwesomeIcon icon={faLink} />About Us</a></li>
                         </ul>
                     </div>
                 </Col>
