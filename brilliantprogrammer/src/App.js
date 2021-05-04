@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './components/Home';
+import Foot from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
             
           </Route>
         </Switch>
+        <Foot/>
       </Router>
     </div>
   );
