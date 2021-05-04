@@ -1,0 +1,32 @@
+#footercon{
+    margin-top: 30px;
+    padding-top: 100px;
+    background-image: url('../images/footer.svg');
+    padding-bottom: 60px;
+    color: white;
+}
+#social_{
+    color: white;
+}
+#social_:hover{
+    color: yellow;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+}
+#navlist_{
+    width: 100px;
+}
+.navlink:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.navlinkw{
+    color: rgb(9, 255, 0);
+    text-decoration: none;
+}
+.navlinkw:hover{
+    color: rgb(144, 238, 214);
+    text-decoration: none;
+}
