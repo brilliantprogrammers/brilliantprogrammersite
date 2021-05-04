@@ -13,9 +13,9 @@ class Navb extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto ">
-                <Nav.Link id="navlinkh" href="/">Home</Nav.Link>
-                <Nav.Link id="navlinkh" href="/python">Python</Nav.Link>
-                <Nav.Link id="navlinkh" href="/">Big Data</Nav.Link>
+                <Nav.Link id="navlinkh" to="/">Home</Nav.Link>
+                <Nav.Link id="navlinkh" to="/python">Python</Nav.Link>
+                <Nav.Link id="navlinkh" to="/">Big Data</Nav.Link>
                 <NavDropdown className="navlinkh" title="Topics" id="basic-nav-dropdown">
                   <NavDropdown.Item id="navlinkh" href="#action/3.1">Django</NavDropdown.Item>
                   <NavDropdown.Item id="navlinkh" href="#action/3.2">Web Development</NavDropdown.Item>
@@ -23,7 +23,7 @@ class Navb extends Component {
                   <NavDropdown.Divider />
                   <NavDropdown.Item id="navlinkh" href="#action/3.4">Tech</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link id="navlinkk" href="/">Write</Nav.Link>
+                <Nav.Link id="navlinkk" to="/">Write</Nav.Link>
               </Nav>
               <Form inline>
                 <FormControl type="text" placeholder="Search Category" className="mr-sm-2" />
