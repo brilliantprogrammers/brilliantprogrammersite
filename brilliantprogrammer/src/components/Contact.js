@@ -9,11 +9,15 @@ import {faGithub,faTwitter,faCodepen,faLinkedin, faInstagram } from "@fortawesom
 class Contact extends Component {
     render() { 
         return ( 
+            <div>
+            <h1 id="contact"><h1 id="section"></h1></h1>
             <Container>
+                
                 <Row>
                 <iframe id="iframe" src="https://kontactr.com/form-page/403a30bae74ecb0" title="description"/>
                 </Row>
             </Container>
+            </div>
          );
     }
 }
