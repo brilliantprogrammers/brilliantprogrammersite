@@ -1,16 +1,13 @@
 import React, { Component } from 'react'
-import { Container,Row,Col,Card,Button } from 'react-bootstrap'
-import robo from './images/robo.svg'
+import { Container,Row} from 'react-bootstrap'
 import './css/contact.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {faGithub,faTwitter,faCodepen,faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons"
+
 
 class Contact extends Component {
     render() { 
         return ( 
             <div>
-            <h1 id="contact"><h1 id="section"></h1></h1>
+            <div id="contact"><div id="section"></div></div>
             <Container>
                 
                 <Row>

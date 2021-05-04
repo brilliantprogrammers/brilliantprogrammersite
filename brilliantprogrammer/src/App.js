@@ -8,6 +8,7 @@ import {
 import Home from './components/Home';
 import Foot from './components/Footer';
 import Contact from './components/Contact';
+import About from './components/About';
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,7 @@ function App() {
             <Contact/>
           </Route>
           <Route path="/about">
-            <Contact/>
+            <About/>
           </Route>
         </Switch>
         <Foot/>
