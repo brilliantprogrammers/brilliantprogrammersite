@@ -42,6 +42,9 @@ class Foot extends Component {
                     <a id="social_" class="btn btn-social-icon" href="mailto:"><FontAwesomeIcon icon={faEnvelope} size="2x" /></a>
                 </Col>
                 </Row>
+                <Row>
+                    <h1 id="copyright">&copy;brilliantprogrammer All rights reserved</h1>
+                </Row>
             </Container>
          );
     }

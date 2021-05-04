@@ -30,3 +30,15 @@
     color: rgb(144, 238, 214);
     text-decoration: none;
 }
+#copyright{
+    font-size: small;
+    width: 100%;
+    transition: transform .4s; 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#copyright:hover{
+    color: yellow;
+    transform: scale(1.1);
+    transform-origin: 50% 50%;  
+}
