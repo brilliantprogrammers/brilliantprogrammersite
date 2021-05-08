@@ -11,23 +11,17 @@ import Contact from './components/Contact';
 import About from './components/About';
 function App() {
   return (
-    <div className="App">
-      <Router basename={process.env.PUBLIC_URL}> 
-        <Nav/>
-        <Switch>  
-          <Route exact path="/">
-            <Home/>    
-          </Route>
-          <Route path="/contact">
-            <Contact/>
-          </Route>
-          <Route path="/about">
-            <About/>
-          </Route>
-        </Switch>
-        <Foot/>
-      </Router>
-    </div>
+    <Router basename={'/brilliantprogrammersite'}>
+      <div className="App"> 
+          <Nav/>
+          <Switch>  
+            <Route exact path="/" component={Home} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/about" component={About} />
+          </Switch>
+          <Foot/>
+      </div>
+    </Router>
   );
 }
 

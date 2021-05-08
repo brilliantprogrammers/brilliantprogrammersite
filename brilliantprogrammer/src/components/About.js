@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container,Row,Col,Card,Button } from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 import './css/about.css'
 
 class About extends Component {
